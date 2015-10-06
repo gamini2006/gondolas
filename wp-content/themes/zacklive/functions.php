@@ -86,7 +86,7 @@ add_action( 'wp_enqueue_scripts', 'zacklive_scripts', 100);
 /* by Gamini */
 add_filter('widget_text', 'do_shortcode');
 
-add_action( 'wp_head', 'vr_set_featured_background', 99);
+/*add_action( 'wp_head', 'vr_set_featured_background', 99);
 function vr_set_featured_background() {
     $image_url = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), full, false );
     if ($image_url[0]) {
@@ -101,14 +101,10 @@ function vr_set_featured_background() {
             background:url(<?php echo $image_url[0]; ?>) #000 left top no-repeat;
             background-size: 100% 100%; 
         }
-        /* Uncomment if the image hangs low in a Genesis theme */
-        /*.site-inner {
-            padding-top:0!important;
-            padding-bottom:0!important;
-        }*/
+        
         </style>
     <?php
     }
-}
+}*/
 
 ?>

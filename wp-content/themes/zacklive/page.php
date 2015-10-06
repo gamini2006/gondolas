@@ -7,7 +7,7 @@ get_header(); ?>
 
     <div id="primary-left" class="content-area col-sm-12 col-md-6">
         <?php if ( is_front_page() ) { ?>
-        <div class="headerslider"> <?php echo do_shortcode("[zia3 id='116' fade='3000' delay='4000' overlay='http://mydomain.com/urlofimage' type='1' arrows='no' autoplay='yes' poster='no' random='no' title='' title_link='' slogan='' slogan_link='' link_color='255,255,255' slogan_link_color='255,255,255' ]"); ?></div>
+        <div class="headerslider"> <?php echo do_shortcode("[zia3 id='116' fade='500' delay='4000' overlay='http://mydomain.com/urlofimage' type='1' arrows='no' autoplay='yes' poster='no' random='no' title='' title_link='' slogan='' slogan_link='' link_color='255,255,255' slogan_link_color='255,255,255' ]"); ?></div>
     <?php }
     else{  ?>
         

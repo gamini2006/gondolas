@@ -178,3 +178,19 @@ body, html{
 	overflow: auto;
 	width: 99%;
 }*/
+.reviews-class{
+	display: table-row;
+}
+.reviews-class img{
+	margin-bottom: 20px;
+}
+.contactform12 .wdform-label{
+	color: #fff !important;
+}
+.contactform12 .wdform-label-section{
+	text-align:right;
+	margin-right: 5px;
+}
+.zia3-slideshow > div{
+	display: none;
+}
